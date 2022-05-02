@@ -112,3 +112,16 @@ const icons = [
 		color: 'blue'
 	}
 ];
+
+//generare gli array filtrati
+const animalsIcons = icons.filter( element => {
+  if(element.type === 'animal')return true
+});
+
+const vegetablesIcons = icons.filter(element => {
+  if(element.type === 'vegetable')return true;
+});
+
+const userIcons = icons.filter(element => {
+  if(element.type === 'user')return true;
+});
