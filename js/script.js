@@ -7,7 +7,7 @@ icons.forEach( element => {
   cell.classList.add('icon-cell');
 
   const icon = document.createElement('i');
-  icon.classList.add(`${element.family}`, `${element.prefix}${element.name}`);
+  icon.classList.add(`${element.family}`, `${element.prefix}${element.name}`, `${element.color}`);
   cell.append(icon);
 
   const name = document.createElement('h3');
